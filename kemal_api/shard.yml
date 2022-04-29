@@ -1,0 +1,17 @@
+name: kemal_api
+version: 0.1.0
+
+authors:
+  - crimson-knight <crimsonknightstudios@gmail.com>
+
+targets:
+  kemal_api:
+    main: src/kemal_api.cr
+
+crystal: 1.4.1
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
