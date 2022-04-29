@@ -1,2 +1,2 @@
-web: bin/rails s -p 30001
+web: bin/rails s -p 3001
 api: cd kemal_api && nodemon --exec crystal run src/kemal_api.cr --watch src
